@@ -9,5 +9,9 @@
         <module name="chartTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springTest" target="11" />
+      <module name="springTest1" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

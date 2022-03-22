@@ -20,4 +20,14 @@ public class controller {
     public String apiTest2() {
         return "/api/apiTest2";
     }
+
+    @RequestMapping(value = "/api/chartTest")
+    public String chartTest() {
+        return "/api/chartTest";
+    }
+
+    @RequestMapping(value = "/api/apiChartTest")
+    public String apiChartTest() {
+        return "/api/apiChartTest";
+    }
 }

@@ -21,6 +21,8 @@
     <button id="horizontalBar" name="horizontalBar"> HorizontalBar 형식 그래프 </button>
     <button type="button" onClick="location.href='${pageContext.request.contextPath}/api/apiTest'"> Api 테스트 페이지로 </button>
     <button type="button" onClick="location.href='${pageContext.request.contextPath}/api/apiTest2'"> Api 테스트2 페이지로 </button>
+    <button type="button" onClick="location.href='${pageContext.request.contextPath}/api/chartTest'"> google chart 테스트 페이지로 </button>
+    <button type="button" onClick="location.href='${pageContext.request.contextPath}/api/apiChartTest'"> API CHART 테스트 페이지로 </button>
     <div id="canvas_Chart">
       <canvas id="myChart" width="600" height="600"></canvas>
     </div>
